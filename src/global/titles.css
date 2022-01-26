@@ -1,0 +1,107 @@
+.title-manga, .title-animes, .title-shop{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-manga h1, .title-animes h1, .title-shop h1, .title-sobre h1{
+  font-family: Poppins;
+  font-size: 40px;
+  
+}
+
+
+.title-manga .border-detail{
+  display: flex;
+  align-items: center;
+}
+
+.title-manga .circle1,.title-manga  .circle2, .title-manga .circle3{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #F61F1F;
+  margin-right: 10px;
+
+}
+
+.circle-larger{
+  width: 90px;
+  height: 8px;
+  border-radius: 50px;
+  background: #F61F1F;
+  margin-right: 10px;
+}
+
+
+.title-animes .border-detail{
+  display: flex;
+  align-items: center;
+}
+
+.title-animes .circle1,  
+.title-animes .circle2, 
+.title-animes .circle3{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #CE1BEB;
+  margin-right: 10px;
+
+}
+
+.title-animes .circle-larger{
+  width: 90px;
+  height: 8px;
+  border-radius: 50px;
+  background: #CE1BEB;
+  margin-right: 10px;
+}
+
+
+.title-shop .border-detail{
+  display: flex;
+  align-items: center;
+}
+
+.title-shop .circle1,  
+.title-shop .circle2, 
+.title-shop .circle3{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #CE1BEB;
+  margin-right: 10px;
+
+}
+
+.title-shop .circle-larger{
+  width: 90px;
+  height: 8px;
+  border-radius: 50px;
+  background: #CE1BEB;
+  margin-right: 10px;
+}
+
+.title-sobre .border-detail{
+  display: flex;
+  align-items: center;
+}
+
+.title-sobre .circle1,  
+.title-sobre .circle2, 
+.title-sobre .circle3{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #91FF7F;
+  margin-right: 10px;
+
+}
+
+.title-sobre .circle-larger{
+  width: 90px;
+  height: 8px;
+  border-radius: 50px;
+  background: #91FF7F;
+  margin-right: 10px;
+}

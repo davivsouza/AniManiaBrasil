@@ -1,0 +1,251 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 150px;
+  background: linear-gradient(256.19deg, #ED7FFF 8.64%, #B77FFF 88.96%);
+
+}
+
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav img{
+  width: 200px;
+  margin-right: 40px;
+}
+
+#menu{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins;
+  display: flex;
+  list-style-type: none;
+}
+
+
+li{
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+
+
+
+#menu li:hover:after{
+  width: 100%;
+  opacity: 1;
+}
+
+#menu li:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  opacity: 0;
+  transition: 0.5s;
+  background: #fff;
+}
+
+
+.shop{
+  position: relative;
+  display: inline-block;
+}
+#dropbox-shop{
+  display: none;
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+  background: #ffff;
+  padding: 10px 15px;
+
+  font-family: Poppins;
+  position: absolute;
+  z-index: 9999999999;
+  left: 50%;
+  bottom: -20;
+  min-width: 180px;
+  transform: translateX(-50%);
+  list-style-type: none;
+}
+
+
+#dropbox-shop li,
+#dropbox-shop a{
+  padding-bottom: 10px;
+  transition: .2s;
+  color: #000;
+}
+
+
+#dropbox-shop li:hover:after{
+  width: 100%;
+  opacity: 1;
+}
+
+#dropbox-shop li:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  opacity: 0;
+  transition: 0.5s;
+  background: #ED7FFF;
+}
+
+.shop:hover #dropbox-shop{
+  display: block;  
+}
+
+.menu-btn{
+  display: none;
+}
+
+
+.menu_btn_burguer{
+  position: relative;
+  z-index: 10000000;
+  width: 40px;
+  height: 6px;
+  background: #fff;
+  border-radius: 10px;
+  transition: all .5s ease-in-out;
+}
+
+.menu_btn_burguer::after,
+.menu_btn_burguer::before{
+  content: "";
+  width: 40px;
+  position: absolute;
+  height: 6px;
+  background: #fff;
+  border-radius: 10px;
+  transition: all .5s ease-in-out;
+
+}
+
+.menu_btn_burguer::after{
+  transform: translateY(12px);
+}
+.menu_btn_burguer::before{
+  transform: translateY(-12px);
+}
+
+/* ======================================ANIMATION=============================== */
+
+.menu-btn{
+  position: relative;
+}
+
+#menu-mb{
+  display: none;
+  position: relative;
+  list-style-type: none;
+  background: #B77FFF;
+  flex-direction: column;
+  position: absolute;
+  width: 60%;
+  top: 0;
+  right:0;
+  z-index: 100;
+  padding: 10px;
+  animation: appears .5s;
+
+}
+#menu-mb a, li{
+  color: #fff;
+}
+
+#menu-mb{
+  width: 100%;
+  text-align: center;
+}
+
+
+#dropbox-shop-mb{
+  display: none;
+  list-style-type: none;
+  background: #fff;
+  margin-top: 10px;
+  flex-direction: column;
+  animation: drop-out .3s ;
+  transition: all .3s;
+  border-radius: 10px;
+
+}
+#dropbox-shop-mb li, #dropbox-shop-mb a{
+  color: #000;
+}
+
+.shop-dropdown{
+  position: relative;
+}
+.shop-dropdown img{
+  width: 20px;
+  margin: auto;
+}
+
+
+
+
+.menu-btn.open .menu_btn_burguer{
+  background: transparent;
+  transform: translateX(-50%);
+}
+
+.menu-btn.open .menu_btn_burguer::after{
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu_btn_burguer::before{
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+@keyframes drop-out{
+  0%{
+    position: relative;
+    height: 0;
+    z-index: -100;
+    opacity: 0;
+    overflow: hidden;
+  }
+  100%{
+    top: 10px;
+    z-index: -2px;
+    opacity: 1;
+    height: 135px;
+  }
+}
+
+@keyframes appears{
+  0%{
+    right: -100%;
+    overflow: hidden;
+  }
+  100%{
+    right: 0;
+  }
+}
+
+@media screen and(max-width:768px) {
+  nav{
+    padding: 10px 50px;
+  }
+
+  li{
+    padding: 10 10px;
+  }
+}
+
+
+

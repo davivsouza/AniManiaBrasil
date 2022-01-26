@@ -1,0 +1,95 @@
+
+.tag{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tags{
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.animes{
+  width: 80px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ED7FFF;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.noticias{
+  width: 80px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #91FF7F;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-family: Poppins;
+}
+
+.mangás{
+  width: 65px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F61F1F;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-family: Poppins;
+}
+
+.curiosidades{
+  width: 90px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7FE0FF;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+  font-family: Poppins;
+}
+
+.especial{
+  width: 90px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+  background: #FCE304;
+}
+
+.cinema{
+  width: 90px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+  background: #ED7C29;
+}

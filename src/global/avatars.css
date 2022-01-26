@@ -1,0 +1,53 @@
+.writter{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.writter span{
+  color: #fff;
+  margin-left: 6px;
+  font-family: Poppins;
+
+}
+
+.luffy p{
+  color: #8DFFF8;
+  margin-left: 6px;
+  font-size: 13px;
+  font-family: Poppins;
+}
+
+
+
+.zoro p{
+  color: #91FF7F;
+  margin-left: 6px;
+  font-size: 13px;
+  font-family: Poppins;
+}
+
+.card-text p{
+  color: #ED7FFF;
+}
+
+.sanji p{
+  color: #ED7FFF;
+  margin-left: 6px;
+  font-size: 13px;
+  font-family: Poppins;
+}
+
+.zoro span,
+.sanji span,
+.luffy span{
+  font-size: 13px;
+  color: #c4c4c4;
+}
+
+.sanji img{
+  width: 40px;
+}

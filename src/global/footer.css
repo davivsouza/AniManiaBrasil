@@ -1,0 +1,73 @@
+#rodape{
+  max-width: 100%;
+  padding: 50px 15px;
+  background: #F6F6F6;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+
+.social-medias{
+  display: flex;
+  justify-content: center;
+}
+
+.social-medias img{
+  width: 30px;
+
+
+}
+
+.insta, 
+.tiktok,
+.facebook,
+.youtube{
+  background: #ED7FFF;
+  border-radius: 50%;
+  margin-right: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.footer-links a{
+  margin: 20px 10px 10px 0;
+  border-right: 3px solid #000;
+}
+
+.footer-links li{
+  padding-left: 0;
+  padding-right: 8px;
+  color: #000;
+  height: 2px;
+  display: flex;
+  align-items: center;
+
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+ 
+}
+
+.footer-links a:last-child{
+  border: none;
+}
+
+#rodape p{
+  font-size: 12px;
+  font-family: Poppins;
+}
+
+#rodape a{
+  text-decoration: none;
+}

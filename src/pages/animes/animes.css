@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+strong {
+  color: #000;
+  transition: 0.3s;
+}
+
+strong:hover {
+  color: #b77fff;
+}
+
+#animes-container {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.cards-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  height: 800px;
+  border: 1px solid #c4c4c4;
+  border-radius: 30px;
+  background-image: url("https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/04/legiao_porNyUCsBGn7.jpg.jpeg");
+  background-size: 100% 40%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.fairy-tail {
+  background-image: url("https://seriesemcena.com.br/wp-content/uploads/2021/03/IMG_20210331_224355.jpg");
+}
+
+.chainsaw {
+  background-image: url("../../assets/Anime-Chainsaw-Man-ganha-primeiro-trailer-e-promete-ser-o-novo-sucesso-anime.png");
+}
+
+.sao {
+  background-image: url("../../assets/Sword-Art-Online-Progressive-filme-ganha-novo-trailer-730x395.png");
+}
+
+.card-content {
+  position: absolute;
+  top: 45%;
+}
+
+.card-content strong {
+  margin: 20px 0;
+}
+
+.card-content strong {
+  font-size: 28px;
+  display: inline-block;
+  width: 90%;
+  font-family: Poppins;
+}
+
+.preview p {
+  margin-top: 20px;
+  font-size: 15px;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  nav{
+    padding: 25px 40px;
+
+  }
+  .menu-btn{
+    display: flex;
+  }
+  nav #menu{
+    display: none;
+    overflow: hidden;
+    width: 0;
+  }
+
+  nav img{
+    width: 150px;
+   
+  }
+
+  .card {
+    width: 300px;
+    height: 650px;
+    background-size: 100% 30%;
+  }
+  .title-animes {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-animes h1 {
+    font-size: 25px;
+  }
+
+  .title-animes .border-detail {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .cards-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-content {
+    top: 35%;
+  }
+
+  .card-content strong {
+    font-size: 20px;
+  }
+  .preview p {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  
+  .social-medias div img{
+    width: 20px;
+  }
+  .footer-links li{
+    font-size: 12px;
+  }
+}

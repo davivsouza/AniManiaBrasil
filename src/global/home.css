@@ -1,0 +1,484 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header{
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  z-index: 100000;
+} */
+
+
+/*================================MAIN======================================*/
+
+a{
+  text-decoration: none;
+}
+
+
+
+.img-link{
+  z-index:2;
+
+}
+
+#recomends{
+  display: flex;
+}
+
+main{
+  max-width: 1100px;
+  margin:  20px auto;
+}
+
+#lastest-news{
+  position: relative;
+  width: 60%;
+  height: 470px;
+  background-image: url("../assets/kimetsu.jpg");
+  background-size:cover;
+  border-radius: 10px;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #00000088;
+}
+
+main{
+  padding: 10px;
+}
+
+.main-new{
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.tag{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tags{
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.animes{
+  width: 100px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ED7FFF;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.noticias{
+  width: 100px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #91FF7F;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.mangás{
+  width: 85px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F61F1F;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.curiosidades{
+  width: 100px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7FE0FF;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+
+.main-new strong{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.main-new strong:hover{
+  color: #ED7FFF;
+}
+
+.writter{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.writter p{
+  color: #8DFFF8;
+  margin-left: 6px;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+.writter span{
+  color: #fff;
+  margin-left: 6px;
+  font-family: Poppins;
+
+}
+
+#suggestions{
+  margin-left: 20px;
+}
+
+.trailer{
+  position: relative;
+  overflow: hidden;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.trailer .overlay{
+  width: 100%;
+  height: 330px;
+  background: #000000c5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.trailer .chainsaw{
+  width: 500px;
+  height: 330px;
+  
+}
+
+
+
+.modal{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.modal-content{
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.trailer strong{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.trailer strong:hover{
+  color: #ED7FFF;
+}
+
+
+.trailer  .writter{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.trailer  .writter p{
+  color: #91FF7F;
+  margin-left: 6px;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+.trailer  .writter span{
+  color: #fff;
+  margin-left: 6px;
+  font-family: Poppins;
+
+}
+
+
+
+
+/* ==========================================MANGAS-CONTAINER============================================ */
+#news{
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+
+
+
+
+.card{
+  width: 90%;
+  padding: 20px;
+  border: 3px solid #c4c4c4;
+  border-radius: 10px;
+  margin: 50px  auto;
+}
+
+.card strong{
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+.card-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.img-card img{
+  width: 400px;
+  height: 290px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+
+.top-vendas .img-card img{
+  resize: horizontal;
+}
+
+.title strong{
+  color: #000;
+  transition: 0.3s
+}
+
+.title strong:hover{
+  color: #B77FFF;
+}
+
+
+
+@media screen and (max-width:768px) {
+  nav{
+    padding: 25px 40px;
+
+  }
+  .menu-btn{
+    display: flex;
+  }
+  nav #menu{
+    display: none;
+    overflow: hidden;
+    width: 0;
+  }
+
+  nav img{
+    width: 50vw;
+   
+  }
+
+  #recomends{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #lastest-news{
+    width: 90%;
+    height: 370px;
+  }
+
+  #kimetsu strong{
+    font-size: clamp(4vw, 14px, 5vw);
+  }
+
+  .writter p, 
+  .writter span,
+  .trailer .writter p,
+  .trailer .writter span{
+    font-size: 12px;
+  }
+
+  #suggestions{
+    width: 90%;
+    margin: auto;
+  }
+
+  .youtube-channel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .youtube-channel img{
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+  }
+
+
+
+  .trailer .chainsaw{
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .title-manga{
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  h1.title-manga-h1{
+    font-size: 25px;
+  }
+  
+  
+  .title-manga .border-detail{
+    display: flex;
+    align-items: center;
+  }
+
+  .card{
+    width: clamp(300px, 3vw, 400px);
+    height: 650px;
+    background-size:100% 30%;
+    position: relative;
+    border: 1px solid #c4c4c4;
+    border-radius: 30px;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+
+  .cards-container{
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .card-content{
+    position: absolute;
+    top: 35%;
+    padding: 10px;
+  }
+
+  .card-content strong{
+    font-size: 20px;
+  }
+  .preview p{
+    width: 90%;
+    font-size: 12px;
+  }
+
+
+  .tr {
+    background-repeat: no-repeat;
+    background-image: url("../assets/Tokyo-Revengers-suastica.png");
+  }
+
+  .live-action-op {
+    background-repeat: no-repeat;
+    background-image: url("../assets/onepiece.png");
+  }
+  
+  .top-vendas {
+    background-repeat: no-repeat;
+    background-image: url("https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2021/08/25124504/One-Piece-100.jpg");
+  }
+  
+  .pai-zoro {
+    background-repeat: no-repeat;
+    background-image: url("../assets/intoxi-zoro-pai.jpg");
+  }
+
+
+  .img-card a img{
+    display: none;
+    overflow: hidden;
+    width: 0;
+  }
+
+
+
+  .title-animes{
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .title-animes h1{
+    font-size: 25px;
+  }
+  
+  
+  .title-animes .border-detail{
+    display: flex;
+    align-items: center;
+  }
+
+
+  .fairy-tail{
+    background-repeat: no-repeat;
+    background-image: url("../assets/Fairy-Tail.png");
+  }
+
+  .sao{
+    background-repeat: no-repeat;
+    background-image: url("../assets/Sword-Art-Online-Progressive-filme-ganha-novo-trailer-730x395.png");
+  }
+
+
+
+
+  .social-medias div img{
+    width: 20px;
+  }
+  .footer-links li{
+    font-size: 12px;
+  }
+
+
+
+}

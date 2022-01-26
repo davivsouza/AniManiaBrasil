@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+strong {
+  color: #000;
+  transition: 0.3s;
+}
+
+strong:hover {
+  color: #b77fff;
+}
+
+#mangas-container {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.cards-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  height: 800px;
+  border: 1px solid #c4c4c4;
+  border-radius: 30px;
+  background-image: url("../../assets/Tokyo-Revengers-suastica.png");
+  background-size: 100% 40%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.live-action {
+  background-image: url("../../assets/onepiece.png");
+}
+
+.top-vendas {
+  background-image: url("https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2021/08/25124504/One-Piece-100.jpg");
+}
+
+.pai-zoro {
+  background-image: url("../../assets/intoxi-zoro-pai.jpg");
+}
+
+.card-content {
+  position: absolute;
+  top: 45%;
+}
+
+.card-content strong {
+  margin: 20px 0;
+}
+
+.card-content strong {
+  font-size: 28px;
+  display: inline-block;
+  width: 90%;
+  font-family: Poppins;
+}
+
+.preview p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  nav{
+    padding: 25px 40px;
+
+  }
+  .menu-btn{
+    display: flex;
+  }
+  nav #menu{
+    display: none;
+    overflow: hidden;
+    width: 0;
+  }
+
+  nav img{
+    width: 150px;
+   
+  }
+
+  .card {
+    width: 300px;
+    height: 650px;
+    background-size: 100% 30%;
+  }
+  .title-manga {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-manga h1 {
+    font-size: 25px;
+  }
+
+  .title-manga .border-detail {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .cards-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-content {
+    top: 35%;
+  }
+
+  .card-content strong {
+    font-size: 20px;
+  }
+  .preview p {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  
+  .social-medias div img{
+    width: 20px;
+  }
+  .footer-links li{
+    font-size: 12px;
+  }
+}
