@@ -39,8 +39,7 @@ Desenvolver um site de notícias com foco em animes e mangás para uma atividade
 <div align="center">
   <img  width="auto" height="auto" src="./github/animania.gif"/>
 </div>
- Se quiser ver melhor, acesse o site neste 
- - [Link](https://animaniabrasil.netlify.app/)
+ Se quiser ver melhor, acesse o site neste <a href="https://animaniabrasil.netlify.app/">link</a>
 
 
 <h3 id="pre-req">Pré-requisitos</h3>
