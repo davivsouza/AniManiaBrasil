@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://unform.dev">
+  <a href="https://animaniabrasil.netlify.app/">
     <img src="./src/assets/logo.png" height="auto" width="auto" alt="AniMania" />
   </a>
 </p>
@@ -11,7 +11,7 @@
   <img  src="https://img.shields.io/github/issues/davivsouza/AniManiaBrasil"/>
   <img  src="https://img.shields.io/github/forks/davivsouza/AniManiaBrasil"/>
   <img  src="https://img.shields.io/github/stars/davivsouza/AniManiaBrasil"/>
-  <img  src="https://img.shields.io/github/license/davivsouza/AniManiaBrasil"/>
+  [![GitHub license](https://img.shields.io/github/license/davivsouza/AniManiaBrasil)](https://github.com/davivsouza/AniManiaBrasil/blob/main/LICENSE)
   <img  src="https://camo.githubusercontent.com/e99f67abb2142292b8b7887f3f644daba8532f483a886ac1d8c3e33df909dfa9/68747470733a2f2f6170692e6e65746c6966792e636f6d2f6170692f76312f6261646765732f34633562633064372d386431302d343466332d393463652d3134633965363239303131312f6465706c6f792d737461747573"/>
 </div>
 
