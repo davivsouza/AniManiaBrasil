@@ -11,7 +11,6 @@
   <img  src="https://img.shields.io/github/issues/davivsouza/AniManiaBrasil"/>
   <img  src="https://img.shields.io/github/forks/davivsouza/AniManiaBrasil"/>
   <img  src="https://img.shields.io/github/stars/davivsouza/AniManiaBrasil"/>
-  [![GitHub license](https://img.shields.io/github/license/davivsouza/AniManiaBrasil)](https://github.com/davivsouza/AniManiaBrasil/blob/main/LICENSE)
   <img  src="https://camo.githubusercontent.com/e99f67abb2142292b8b7887f3f644daba8532f483a886ac1d8c3e33df909dfa9/68747470733a2f2f6170692e6e65746c6966792e636f6d2f6170692f76312f6261646765732f34633562633064372d386431302d343466332d393463652d3134633965363239303131312f6465706c6f792d737461747573"/>
 </div>
 
@@ -21,6 +20,7 @@
  <a href="#pre-req">Pré-requisitos</a> • 
  <a href="#funcionalidades">Funcionalidades</a> • 
  <a href="#autor">Autor</a>
+ <a href="#license">License</a>
 </p>
 <h4 align="center"> 
 	🚧  AniMania 🚀 Concluído.  🚧
@@ -83,3 +83,6 @@ Feito com ❤️ por Davi V. Souza 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Davi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/davi-vasconcelos-souza-236170234/)](https://www.linkedin.com/in/davi-vasconcelos-souza-236170234/) 
 [![Gmail Badge](https://img.shields.io/badge/-davivasconcelossouza21@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:davivasconcelossouza21@gmail.com)](mailto:davivasconcelossouza21@gmail.com)
+
+<h1 id="license">License</h1>
+# MIT
