@@ -53,7 +53,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina o
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/davivsouza/rocket-flix.git>
+$ git clone <https://github.com/davivsouza/AniManiaBrasil.git>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd AniManiaBrasil
