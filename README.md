@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://unform.dev">
-    <img src="./public/assets/shuffle.svg" height="150" width="175" alt="Unform" />
+    <img src="./src/assets/logo.png" height="auto" width="auto" alt="AniMania" />
   </a>
 </p>
 <h1 align="center">AniMania</h1>
@@ -23,19 +23,18 @@
  <a href="#autor">Autor</a>
 </p>
 <h4 align="center"> 
-	🚧  Rocketflix 🚀 Concluído.  🚧
+	🚧  AniMania 🚀 Concluído.  🚧
 </h4>
 
 
-<h3 id="objetivos">Objetivo 🎯</h3>
-Desenvolver um site onde o usuário que quer ver um filme, porém está na dúvida de qual escolher.
-Possa com apenas um clique gerar um filme aleatório, e assim ele consiga encontrar um filme que o interesse.
+<h3 id="objetivo">Objetivo 🎯</h3>
+Desenvolver um site de notícias com foco em animes e mangás para uma atividade escolar.
 
 <h3 id="funcionalidades">Funcionalidades</h3>
 
-- [x] Ao clicar no botão, fazer uma requisição na api
-- [x] Caso a requisição falhe, mostrar tela de not found personalizada
-- [ ] Responsividade
+- [x] Ao clicar nas manchetes, o usuário ser redirecionado para páginas específica da notícia
+- [x] Utilizar Iframes, para colocar outras páginas no site, por exemplo YouTube e Twitter. 
+- [x] Responsividade
 
 <div align="center">
   <img  width="400px" height="400px" src="./github/rocketflix.gif"/>
@@ -57,20 +56,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina o
 $ git clone <https://github.com/davivsouza/rocket-flix.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd rocket-flix
+$ cd AniManiaBrasil
 
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
-
-# O localhost inciará na porta:3000 - acesse <http://localhost:3000>
 ```
-Obs: Esse projeto foi feito com uso de uma api que necessita de uma key. 
-Faça seu registro e pegue a key neste [link](https://www.themoviedb.org/documentation/api)
-
-link de exemplo para fazer requisição: "https://api.themoviedb.org/3/movie/634649?api_key=sua-api-key"
+Procure o arquivo index.html e abra-o com o seu navegador e você estará pronto para rodar o projeto em sua máquina!
 
 
 <h1 id="tecnologias">🛠 Tecnologias</h1>
@@ -78,10 +67,9 @@ link de exemplo para fazer requisição: "https://api.themoviedb.org/3/movie/634
 As seguintes ferramentas foram usadas na construção do projeto:
 
 
-- [React](https://pt-br.reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Styled-components](https://styled-components.com/docs)
-- [Axios](https://github.com/axios/axios)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
 
 <h1 id="autor">Autor</h1>
 
