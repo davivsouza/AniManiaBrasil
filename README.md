@@ -36,7 +36,7 @@ Desenvolver um site de notícias com foco em animes e mangás para uma atividade
 - [x] Utilizar Iframes, para colocar outras páginas no site, por exemplo YouTube e Twitter. 
 - [x] Responsividade
 
-<div align="center">
+<div>
   <img  width="600px" height="auto" src="./github/animania.gif"/>
 </div>
  Se quiser ver melhor, acesse o site neste <a href="https://animaniabrasil.netlify.app/">link</a>
