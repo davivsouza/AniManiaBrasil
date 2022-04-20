@@ -19,7 +19,7 @@
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#pre-req">Pré-requisitos</a> • 
  <a href="#funcionalidades">Funcionalidades</a> • 
- <a href="#autor">Autor</a>
+ <a href="#autor">Autor</a> • 
  <a href="#license">License</a>
 </p>
 <h4 align="center"> 
@@ -85,4 +85,4 @@ Feito com ❤️ por Davi V. Souza 👋🏽 Entre em contato!
 [![Gmail Badge](https://img.shields.io/badge/-davivasconcelossouza21@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:davivasconcelossouza21@gmail.com)](mailto:davivasconcelossouza21@gmail.com)
 
 <h1 id="license">License</h1>
-# MIT
+MIT
