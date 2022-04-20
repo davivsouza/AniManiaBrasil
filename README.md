@@ -32,7 +32,7 @@ Desenvolver um site de notícias com foco em animes e mangás para uma atividade
 
 <h3 id="funcionalidades">Funcionalidades</h3>
 
-- [x] Ao clicar nas manchetes, o usuário ser redirecionado para páginas específica da notícia
+- [x] Ao clicar nas manchetes, o usuário ser redirecionado para página específica da notícia
 - [x] Utilizar Iframes, para colocar outras páginas no site, por exemplo YouTube e Twitter. 
 - [x] Responsividade
 
